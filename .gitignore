@@ -1,0 +1,11 @@
+/algorithms/tabu_search_algo.py
+/genetic.py
+
+/attempts/
+/report/
+/literature/
+
+/__pycache__/
+/.idea/
+/.ipynb_checkpoints/
+/.vscode/
