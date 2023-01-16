@@ -1,6 +1,6 @@
-# Comparing Metaheuristics to solve the Maximum Independent Set Problem
+# A Genetic Algorithm for the Maximum Independent Set Problem
 
-This repository includes the source code for my implementation of two different metaheuristics, Genetic Algorithm and Tabu Search.
+This repository includes the source code for my implementation of a Genetic Algorithm.
 
 It has been developed as coursework for the *Algorithms and Combinatorial Optimisation* course as part of the M2 GENIOMHE under the supervision of Prof. Franck Delaplace. 
 
@@ -13,7 +13,7 @@ To clone this repository, run the following in a terminal:
 ```bash
 $ git clone 
 ```
-`algorithms/` contains the scripts of `geneticalgo.py` and `tabu_search.py`
+`algorithms/` contains the functions of the genetic algorithm in `geneticalgo.py` and `brute_force_mis.py`, a brute force solution for the MISP. 
 
 
 # The Maximum Independent Set problem
@@ -24,10 +24,9 @@ In graph theory, an independent set $S$ of a given graph $G=(V,E)$ is a number o
 - $V' \subseteq V$ such that $\forall i, j \in V'$ the edge $\langle i, j \rangle \notin E$ and $|V'|$ is maximum (see Bäck & Khuri (1994))
 
 
-## Small graph as an example:
+## Example graphs:
 
-
-The MIS is deemed NP-hard. You can find a `misp.ipynb` notebook comparing the performance of the Genetic Algorithm as well as Tabu Search in the `examples/` folder. 
+The MIS is deemed NP-hard. You can find a `misp.ipynb` notebook visualising the performance of the Genetic Algorithm in the `examples/` folder. 
 
 # References
 
