@@ -5,10 +5,8 @@
 /report/
 /literature/
 
-/__pycache__/
 /.idea/
-/.ipynb_checkpoints/
+*.ipynb_checkpoints/
 /.vscode/
-/.DS_Store
-/examples/.ipynb_checkpoints
-/algorithms/__pycache__/
+*.DS_Store
+*__pycache__/
