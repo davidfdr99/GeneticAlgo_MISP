@@ -10,3 +10,5 @@
 /.vscode/
 *.DS_Store
 *__pycache__/
+
+./examples/benchmark_graphs/
