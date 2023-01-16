@@ -11,3 +11,4 @@
 /.vscode/
 /.DS_Store
 /examples/.ipynb_checkpoints
+/algorithms/__pycache__/

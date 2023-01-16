@@ -11,7 +11,7 @@ It has been developed as coursework for the *Algorithms and Combinatorial Optimi
 To clone this repository, run the following in a terminal:
 
 ```bash
-$ git clone 
+$ git clone https://github.com/davidfdr99/GeneticAlgo_MISP.git
 ```
 `algorithms/` contains the functions of the genetic algorithm in `geneticalgo.py` and `brute_force_mis.py`, a brute force solution for the MISP. 
 
@@ -19,14 +19,14 @@ $ git clone
 # The Maximum Independent Set problem
 
 In graph theory, an independent set $S$ of a given graph $G=(V,E)$ is a number of vertices $v \in V$ such that no two vertices in $S$ are adjacent, i.e. that no edges $e \in E$ are shared.
-*The Maximum Independent Set* (MIS) is the largest possible set of $G$. It can be defined as:
+*The Maximum Independent Set* (MISP) is the largest possible set of $G$. It can be defined as:
 
 - $V' \subseteq V$ such that $\forall i, j \in V'$ the edge $\langle i, j \rangle \notin E$ and $|V'|$ is maximum (see Bäck & Khuri (1994))
 
 
 ## Example graphs:
 
-The MIS is deemed NP-hard. You can find a `misp.ipynb` notebook visualising the performance of the Genetic Algorithm in the `examples/` folder. 
+The MISP is deemed NP-hard. You can find a `misp.ipynb` notebook visualising the performance of the Genetic Algorithm in the `examples/` folder. 
 
 # References
 
